@@ -1,5 +1,5 @@
-import './style.css'
-import * as THREE from 'three';
+import "./style.css";
+import * as THREE from "three";
 
 // Scene
 const scene = new THREE.Scene();
@@ -12,8 +12,8 @@ scene.add(mesh);
 
 // Sizes
 const sizes = {
-    width: 800,
-    height: 600
+  width: 800,
+  height: 600,
 };
 
 // Camera
@@ -23,7 +23,7 @@ scene.add(camera);
 
 // Renderer
 const renderer = new THREE.WebGLRenderer({
-    canvas: document.querySelector('canvas.webgl')
+  canvas: document.querySelector("canvas.webgl"),
 });
 
 renderer.setSize(sizes.width, sizes.height);

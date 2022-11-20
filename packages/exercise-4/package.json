@@ -1,10 +1,12 @@
 {
-    "name":"@siggerzz/threejs-exercise-4",
-    "version": "1.0.0",
-    "repository": "#",
-    "license": "UNLICENSED",
-    "scripts": {
-        "build": "webpack --config ./bundler/webpack.prod.js",
-        "dev": "webpack serve --config ./bundler/webpack.dev.js"
-    }
+  "name": "@siggerzz/threejs-exercise-4",
+  "version": "1.0.0",
+  "repository": "#",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "webpack --config ./bundler/webpack.prod.js",
+    "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  }
 }
