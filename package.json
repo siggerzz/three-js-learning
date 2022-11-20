@@ -1,6 +1,6 @@
 {
   "name": "@siggerzz/threejs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "https://www.github.com/siggerzz/three-js-learning",
   "license": "UNLICENSED",
   "private": true,
@@ -10,7 +10,8 @@
     "lint": "turbo run lint",
     "lint:fix": "yarn run lint --fix",
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "cz",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@babel/core": "7.20.2",
@@ -32,6 +33,7 @@
     "portfinder-sync": "0.0.2",
     "prettier": "2.7.1",
     "raw-loader": "4.0.2",
+    "standard-version": "^9.5.0",
     "style-loader": "3.3.1",
     "three": "0.146.0",
     "turbo": "1.6.3",
