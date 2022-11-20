@@ -1,13 +1,10 @@
 {
   "name": "@siggerzz/threejs-exercise-5",
-  "version": "1.0.0",
-  "repository": "#",
-  "license": "UNLICENSED",
+  "repository": "https://www.github.com/siggerzz/three-js-learning",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
     "lint": "eslint \"!(dist)/**/*.js\"",
-    "lint:fix": "eslint --fix",
-    "release": "standard-version"
+    "lint:fix": "eslint --fix"
   }
 }
