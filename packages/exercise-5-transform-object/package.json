@@ -1,5 +1,5 @@
 {
-  "name": "@siggerzz/threejs-exercise-5",
+  "name": "@siggerzz/threejs-transform-objects",
   "repository": "https://www.github.com/siggerzz/three-js-learning",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
