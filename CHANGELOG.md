@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/siggerzz/three-js-learning/compare/v1.2.2...v1.3.0) (2022-11-21)
+
+
+### Features
+
+* add `gsap` library for animations and finish exercise 6 ([7b16932](https://github.com/siggerzz/three-js-learning/commit/7b16932fb58d5d0e0a926236f958203013609769))
+
 ### [1.2.2](https://github.com/siggerzz/three-js-learning/compare/v1.2.1...v1.2.2) (2022-11-21)
 
 ### [1.2.1](https://github.com/siggerzz/three-js-learning/compare/v1.2.0...v1.2.1) (2022-11-21)
