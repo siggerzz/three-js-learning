@@ -1,0 +1,10 @@
+{
+  "name": "@siggerzz/threejs-exercise-6",
+  "repository": "https://www.github.com/siggerzz/three-js-learning",
+  "scripts": {
+    "build": "webpack --config ./bundler/webpack.prod.js",
+    "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "lint": "eslint \"!(dist)/**/*.js\"",
+    "lint:fix": "eslint --fix"
+  }
+}
