@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/siggerzz/three-js-learning/compare/v1.1.5...v1.2.0) (2022-11-21)
+
+
+### Features
+
+* finish exercise 5 ([378fb08](https://github.com/siggerzz/three-js-learning/commit/378fb084ff9a31b2a44609c13e432588ab655967))
+
 ### [1.1.5](https://github.com/siggerzz/three-js-learning/compare/v1.1.4...v1.1.5) (2022-11-21)
 
 ### [1.1.4](https://github.com/siggerzz/three-js-learning/compare/v1.1.3...v1.1.4) (2022-11-20)
