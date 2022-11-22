@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/siggerzz/three-js-learning/compare/v1.5.0...v1.6.0) (2022-11-22)
+
+
+### Features
+
+* finish exercise 7 and fix eslint `import/no-extraneous-dependencies` errors ([406505b](https://github.com/siggerzz/three-js-learning/commit/406505bedce5e8420889c04c734f257e2c8502f6))
+
 ## [1.5.0](https://github.com/siggerzz/three-js-learning/compare/v1.4.0...v1.5.0) (2022-11-22)
 
 
