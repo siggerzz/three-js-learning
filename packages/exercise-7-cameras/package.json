@@ -1,0 +1,11 @@
+{
+    "name": "@siggerzz/threejs-cameras",
+    "repository": "https://www.github.com/siggerzz/three-js-learning",
+    "scripts": {
+      "build": "webpack --config ../../bundler/webpack.prod.js --entry ./src/script.js",
+      "dev": "webpack serve --config ../../bundler/webpack.dev.js --entry ./src/script.js",
+      "lint": "eslint \"!(dist)/**/*.js\"",
+      "lint:fix": "eslint --fix"
+    }
+  }
+  
