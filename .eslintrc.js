@@ -5,6 +5,9 @@ module.exports = {
         "es2021": true
     },
     "extends": "airbnb-base",
+    "globals": {
+        "three": "readonly"
+    },
     "overrides": [
     ],
     "parserOptions": {
@@ -14,13 +17,12 @@ module.exports = {
     "rules": {
         "semi": ["error", "always"],
         "quotes": ["error", "single"],
-        "import/no-extraneous-dependencies": [
-            "warn",
+        'import/no-extraneous-dependencies': [
+            'error',
             {
-                "devDependencies": true,
-                "optionalDependencies": true,
-                "peerDependencies": true,
+              devDependencies: true,
+              packageDir: '../../'
             }
-        ],
+          ]
     }
 }
