@@ -3,8 +3,8 @@
   "repository": "https://www.github.com/siggerzz/three-js-learning",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "build": "webpack --config ../../bundler/webpack.prod.js --entry ./src/script.js",
+    "dev": "webpack serve --config ../../bundler/webpack.dev.js --entry ./src/script.js",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   }
